@@ -12,11 +12,15 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    padding: 0 5px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 header {
     flex-grow: 0;
+    background-color: rgba(23, 20, 20, 0.7);
+    position: fixed;
+    z-index: 99;
 }
 
 h1 {
