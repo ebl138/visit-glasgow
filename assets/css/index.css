@@ -1,0 +1,24 @@
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    flex-grow: 0;
+}
+
+main {
+    /* Ensure main absorbs all extra space so footer appears at bottom of page */
+    flex: 1;
+}
+
+footer {
+    flex-grow: 0;
+}
+
+p {
+    margin: 0;
+}
