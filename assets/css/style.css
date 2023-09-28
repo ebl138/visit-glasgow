@@ -61,6 +61,11 @@ nav {
     left: 0;
     width: 100%;
     display: none;
+    top: 100%;
+}
+
+#nav-toggle-box:checked~nav {
+    display: block;
 }
 
 #nav-toggle-box {
