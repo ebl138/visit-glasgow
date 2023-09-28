@@ -18,6 +18,9 @@ body {
 
 /* Header styles */
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-grow: 0;
     background-color: rgba(23, 20, 20, 0.7);
     position: fixed;
@@ -58,6 +61,10 @@ nav {
     left: 0;
     width: 100%;
     display: none;
+}
+
+.nav-toggle-box-label {
+    margin-right: 20px;
 }
 
 /* Main content styles */
