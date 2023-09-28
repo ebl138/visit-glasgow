@@ -39,7 +39,7 @@ header h1 {
     border: solid;
     width: fit-content;
     padding: 0 4px;
-    margin-left: 5px;
+    margin: 16px 8px;
 }
 
 #nav-menu {
@@ -60,6 +60,10 @@ nav {
     background-color: rgba(23, 20, 20, 0.7);
     left: 0;
     width: 100%;
+    display: none;
+}
+
+#nav-toggle-box {
     display: none;
 }
 
