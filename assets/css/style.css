@@ -16,6 +16,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+/* Header styles */
 header {
     flex-grow: 0;
     background-color: rgba(23, 20, 20, 0.7);
@@ -23,10 +24,31 @@ header {
     z-index: 99;
 }
 
-h1 {
-    font-family: 'Vollkorn', sans-serif;
+header a {
+    text-decoration: none;
 }
 
+/* Give logo a box appearance */
+header h1 {
+    font-family: 'Vollkorn', sans-serif;
+    border: solid;
+    padding: 0 4px;
+    margin-left: 5px;
+}
+
+#nav-menu {
+    list-style-type: none;
+}
+
+#nav-menu > li {
+    margin-bottom: 5px;
+}
+
+.current {
+    color: lightblue;
+}
+
+/* Main content styles */
 main {
     /* Ensure main absorbs all extra space so footer appears at bottom of page (must have flex-grow */
     /* set to 0 for header and footer) */
