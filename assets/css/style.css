@@ -22,16 +22,19 @@ header {
     background-color: rgba(23, 20, 20, 0.7);
     position: fixed;
     z-index: 99;
+    width: 100%;
 }
 
 header a {
     text-decoration: none;
+    width: fit-content;
 }
 
-/* Give logo a box appearance */
 header h1 {
     font-family: 'Vollkorn', sans-serif;
+    /* Give logo a box appearance */
     border: solid;
+    width: fit-content;
     padding: 0 4px;
     margin-left: 5px;
 }
@@ -46,6 +49,15 @@ header h1 {
 
 .current {
     color: lightblue;
+}
+
+/* Nav styles */
+nav {
+    position: absolute;
+    background-color: rgba(23, 20, 20, 0.7);
+    left: 0;
+    width: 100%;
+    display: none;
 }
 
 /* Main content styles */
