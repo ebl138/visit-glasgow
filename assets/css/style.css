@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    background-color: #171414;
+    background-color: green;
     color: #EFEEEE;
 }
 
@@ -12,7 +12,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0 5px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
@@ -22,15 +21,17 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-grow: 0;
-    background-color: rgba(23, 20, 20, 0.7);
+    background-color: rgba(23, 20, 20, 0.4);
     position: fixed;
     z-index: 99;
     width: 100%;
+    padding: 0 5px;
 }
 
 header a {
     text-decoration: none;
     width: fit-content;
+    background-color: rgba(23, 20, 20, 0.0);
 }
 
 header h1 {
@@ -40,6 +41,11 @@ header h1 {
     width: fit-content;
     padding: 0 4px;
     margin: 16px 8px;
+    background-color: rgba(23, 20, 20, 0.0);
+}
+
+.nav-toggle-box-label {
+    background-color: rgba(23, 20, 20, 0.0);
 }
 
 #nav-menu {
@@ -57,7 +63,6 @@ header h1 {
 /* Nav styles */
 nav {
     position: absolute;
-    background-color: rgba(23, 20, 20, 0.7);
     left: 0;
     width: 100%;
     display: none;
@@ -81,10 +86,12 @@ main {
     /* Ensure main absorbs all extra space so footer appears at bottom of page (must have flex-grow */
     /* set to 0 for header and footer) */
     flex: 1;
+    padding: 0 5px;
 }
 
 footer {
     flex-grow: 0;
+    padding: 0 5px;
 }
 
 p {
