@@ -44,22 +44,6 @@ header h1 {
     background-color: rgba(23, 20, 20, 0.0);
 }
 
-.nav-toggle-box-label {
-    background-color: rgba(23, 20, 20, 0.0);
-}
-
-#nav-menu {
-    list-style-type: none;
-}
-
-#nav-menu > li {
-    margin-bottom: 5px;
-}
-
-.current {
-    color: lightblue;
-}
-
 /* Nav styles */
 nav {
     position: absolute;
@@ -67,6 +51,28 @@ nav {
     width: 100%;
     display: none;
     top: 100%;
+    background-color: rgba(23, 20, 20, 0.4);
+}
+
+.nav-toggle-box-label {
+    background-color: rgba(23, 20, 20, 0.0);
+}
+
+#nav-menu {
+    list-style-type: none;
+    background-color: rgba(23, 20, 20, 0.0);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 0 5px 20px;
+}
+
+#nav-menu>li {
+    margin-bottom: 5px;
+    background-color: rgba(23, 20, 20, 0.0);
+}
+
+.current {
+    color: lightblue;
 }
 
 #nav-toggle-box:checked~nav {
