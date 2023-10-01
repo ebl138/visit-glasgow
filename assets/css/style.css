@@ -128,3 +128,15 @@ p {
         margin: 0;
     }
 }
+
+/* Media query: laptop and desktop screens (992px and up) */
+@media screen and (min-width: 992px) {
+    #nav-menu {
+        /* Restore font size to 100% as there is enough space for the text in navigation links on larger screens */
+        font-size: 100%;
+    }
+
+    #nav-menu a:hover {
+        color: lightblue;
+    }
+}
