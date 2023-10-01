@@ -107,11 +107,24 @@ p {
     nav {
         display: block;
         position: relative;
-        padding: 0 10px;
         background-color: rgba(23, 20, 20, 0.0);
+        justify-self: end;
+        width: fit-content;
     }
 
     .nav-toggle-box-label {
         display: none;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        font-size: 80%;
+    }
+
+    #nav-menu > li {
+        padding: 0 15px;
+        margin: 0;
     }
 }
