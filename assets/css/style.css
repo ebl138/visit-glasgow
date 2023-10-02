@@ -91,13 +91,23 @@ main {
     padding: 0 5px;
 }
 
+/* Footer styles */
 footer {
     flex-grow: 0;
     padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 p {
     margin: 0;
+    /* Reduce text size to accommodate social media links in same row */
+    font-size: 50%;
+}
+
+#social-media {
+    list-style-type: none;
 }
 
 /* Media query: tablets and larger screens (768px and up) */
