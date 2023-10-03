@@ -205,6 +205,7 @@ footer > p {
 
 /* Media query: laptop and desktop screens (992px and up) */
 @media screen and (min-width: 992px) {
+    /* Nav styles */
     #nav-menu {
         /* Restore font size to 100% as there is enough space for the text in navigation links on larger screens */
         font-size: 100%;
@@ -212,5 +213,15 @@ footer > p {
 
     #nav-menu a:hover {
         color: lightblue;
+    }
+
+    /* Hero styles*/
+    #hero-cover {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    #hero-cover > h2 {
+        font-size: 320%;
     }
 }
