@@ -103,8 +103,11 @@ main {
     height: fit-content;
     font-family: 'Vollkorn', sans-serif;
     position: absolute;
-    top: 45%;
-    left: 20%;
+    top: 350px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero-cover > h2 {
@@ -170,8 +173,12 @@ footer > p {
         margin: 0;
     }
 
-    /* Increase size of Favicon text and social media icons on larger screens */
+    /* Hero styles*/
+    
+
+    /* Footer styles */
     footer {
+        /* Increase size of Favicon text and social media icons on larger screens */
         font-size: 200%;
     }
 
