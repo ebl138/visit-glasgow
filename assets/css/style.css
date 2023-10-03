@@ -174,7 +174,15 @@ footer > p {
     }
 
     /* Hero styles*/
-    
+    #hero-cover {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    #hero-cover > h2 {
+        font-size: 250%;
+        letter-spacing: 1px;
+    }
 
     /* Footer styles */
     footer {
