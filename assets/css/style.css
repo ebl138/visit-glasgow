@@ -212,6 +212,11 @@ footer > p {
         letter-spacing: 1px;
     }
 
+    /* Glasgow information section */
+    #accent, #locals {
+        font-size: 0.8rem;
+    }
+
     /* Footer styles */
     footer {
         /* Increase size of Favicon text and social media icons on larger screens */
@@ -243,7 +248,7 @@ footer > p {
         color: lightblue;
     }
 
-    /* Hero styles*/
+    /* Hero styles */
     #hero-cover {
         height: fit-content;
         width: fit-content;
@@ -251,5 +256,11 @@ footer > p {
 
     #hero-cover > h2 {
         font-size: 320%;
+    }
+
+    /* Glasgow information section */
+    #accent, #locals {
+        font-size: 1rem;
+        max-width: 450px;
     }
 }
