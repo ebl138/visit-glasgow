@@ -119,9 +119,17 @@ main {
     font-size: 0.65rem;
 }
 
+/* Glasgow information section */
+#glasgow-info {
+    display: flex;
+    margin: 0 12px;
+    flex-direction: column;
+}
+
 #glasgow-info > h2 {
     font-family: 'Vollkorn', sans-serif;
     text-decoration: underline;
+    align-self: center;
 }
 
 /* Footer styles */
