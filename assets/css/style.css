@@ -115,10 +115,6 @@ main {
     font-weight: bold;
 }
 
-#accent, #locals {
-    font-size: 0.65rem;
-}
-
 /* Glasgow information section */
 #glasgow-info {
     display: flex;
@@ -130,6 +126,21 @@ main {
     font-family: 'Vollkorn', sans-serif;
     text-decoration: underline;
     align-self: center;
+}
+
+#glasgow-info-blocks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#accent, #locals {
+    font-size: 0.65rem;
+    border: solid;
+    border-radius: 3%;
+    margin: 6px;
+    padding: 0 5px;
+    max-width: 300px;
 }
 
 /* Footer styles */
