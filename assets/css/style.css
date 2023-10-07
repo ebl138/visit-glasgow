@@ -182,7 +182,6 @@ footer > p {
 /* Media query: tablets and larger screens (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header styles */
-
     header {
         font-size: 80%;
     }
@@ -194,6 +193,7 @@ footer > p {
         background-color: rgba(23, 20, 20, 0.0);
         justify-self: end;
         width: fit-content;
+        margin-right: 12px;
     }
 
     .nav-toggle-box-label {
@@ -204,7 +204,7 @@ footer > p {
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        font-size: 90%;
+        font-size: 105%;
     }
 
     #nav-menu > li {
@@ -251,13 +251,13 @@ footer > p {
 @media screen and (min-width: 992px) {
     /* Header styles */
     header {
-        font-size: 100%;
+        font-size: 110%;
     }
 
     /* Nav styles */
     #nav-menu {
-        /* Restore font size to 100% as there is enough space for the text in navigation links on larger screens */
-        font-size: 100%;
+        /* Restore font size to 110% as there is enough space for the text in navigation links on larger screens */
+        font-size: 110%;
     }
 
     #nav-menu a:hover {
