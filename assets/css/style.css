@@ -143,6 +143,10 @@ main {
     max-width: 300px;
 }
 
+#accent > p, #locals > p {
+    padding-left: 8px;
+}
+
 /* Footer styles */
 footer {
     flex-grow: 0;
@@ -150,6 +154,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: 0 -1.25px #EFEEEE;
 }
 
 footer > p {
