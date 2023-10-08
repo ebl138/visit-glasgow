@@ -21,6 +21,7 @@ h1, h2, h3 {
 
 h3 {
     text-decoration: underline;
+    text-align: center;
 }
 
 /* Header styles */
@@ -163,9 +164,29 @@ main {
 }
 
 /* Where to visit? section styles */
+#where-to-visit {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
 #where-to-visit > h2 {
     text-decoration: underline;
+    align-self: center;
 }
+
+#where-to-visit-blocks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#kelvingrove-park-image, #botanic-gardens-image, #mitchell-library-image, #hampden-park-image {
+    border: solid;
+    border-radius: 3%;
+    height: 250px;
+    overflow: hidden;
+} 
 
 /* Footer styles */
 footer {
