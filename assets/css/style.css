@@ -170,7 +170,9 @@ main {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    padding: 0 5px;
     box-shadow: 0 -1.25px #EFEEEE;
+    font-size: 70%;
 }
 
 #where-to-visit > h2 {
@@ -184,10 +186,15 @@ main {
     justify-content: space-evenly;
 }
 
+#where-to-visit-blocks div {
+    margin: 0 25px;
+}
+
 #kelvingrove-park-image, #botanic-gardens-image, #mitchell-library-image, #hampden-park-image {
     border: solid;
     border-radius: 3%;
     height: 250px;
+    width: fit-content;
     overflow: hidden;
 } 
 
@@ -275,6 +282,11 @@ footer > p {
         font-size: 0.8rem;
     }
 
+    /* Where to visit? section styles */
+    #where-to-visit {
+        font-size: 90%;
+    }
+
     /* Footer styles */
     footer {
         /* Increase size of Favicon text and social media icons on larger screens */
@@ -329,5 +341,10 @@ footer > p {
     #accent, #locals {
         font-size: 1rem;
         max-width: 450px;
+    }
+
+    /* Where to visit? section styles */
+    #where-to-visit {
+        font-size: 110%;
     }
 }
