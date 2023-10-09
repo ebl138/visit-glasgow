@@ -104,6 +104,7 @@ main {
     flex: 1;
 }
 
+/* Home page styles */
 /* Hero section styles */
 #hero {
     width: 100%;
@@ -209,6 +210,19 @@ main {
     height: 325px;
     box-shadow: 0 -1.25px #EFEEEE;
     border-width: 0;
+}
+
+/* Gallery page styles */
+#slide-container {
+    width: 2200px;
+    height: 200px;
+    position: relative;
+    clear: both;
+}
+
+.slide {
+    margin: 0;
+    padding: 0;
 }
 
 /* Footer styles */
