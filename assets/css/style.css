@@ -55,6 +55,11 @@ header h1 {
     margin: 16px 8px;
 }
 
+header i {
+    font-size: 180%;
+    margin-right: 2px;
+}
+
 /* Nav styles */
 nav {
     position: absolute;
@@ -203,6 +208,7 @@ main {
     width: 100%;
     height: 325px;
     box-shadow: 0 -1.25px #EFEEEE;
+    border-width: 0;
 }
 
 /* Footer styles */
