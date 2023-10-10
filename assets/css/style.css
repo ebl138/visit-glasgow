@@ -24,12 +24,11 @@ h3 {
     text-align: center;
 }
 
-/* Header styles */
 .transparent {
     background-color: rgba(23, 20, 20, 0.0);
 }
 
-header {
+/* Header styles */header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -274,7 +273,7 @@ main {
 
 #slider-buttons {
     position: relative;
-    top: -30px;
+    top: -24px;
     text-align: center;
 }
 
@@ -283,6 +282,7 @@ main {
     height: 12px;
     background-color: #EFEEEE;
     display: inline-block;
+    margin: 0 2px;
 }
 
 /* Footer styles */
