@@ -291,7 +291,7 @@ main {
     display: flex;
 }
 
-#signup {
+#join {
     background: url('../images/join-the-community-2200x1467.jpeg') no-repeat center center/cover;
     flex-grow: 1;
 }
