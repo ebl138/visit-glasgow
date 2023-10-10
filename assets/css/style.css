@@ -378,30 +378,18 @@ footer > p {
     #slider {
         width: 450px;
         height: 360px;
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
         top: 115px;
-        left: 0;
-        right: 0;
-        overflow: hidden;
     }
 
     #slide-container {
         width: 4150px;
         height: 360px;
-        position: relative;
-        clear: both;
     }
 
     /* Adjust width and height with CSS so slide fits slide container */
     .slide {
         width: 450px;
         height: 360px;
-        margin: 0;
-        padding: 0;
-        float: left;
-        position: relative;
     }
 
     /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
@@ -438,16 +426,10 @@ footer > p {
     }
 
     #slider-buttons {
-        position: relative;
         top: -28px;
-        text-align: center;
     }
 
     #slider-buttons a {
-        width: 12px;
-        height: 12px;
-        background-color: #EFEEEE;
-        display: inline-block;
         margin: 0 4px;
     }
 
@@ -515,31 +497,15 @@ footer > p {
     /* Gallery page styles */
     #slider {
         width: 650px;
-        height: 360px;
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
-        top: 115px;
-        left: 0;
-        right: 0;
-        overflow: hidden;
     }
 
     #slide-container {
         width: 5850px;
-        height: 360px;
-        position: relative;
-        clear: both;
     }
 
     /* Adjust width and height with CSS so slide fits slide container */
     .slide {
         width: 650px;
-        height: 360px;
-        margin: 0;
-        padding: 0;
-        float: left;
-        position: relative;
     }
 
     /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
@@ -575,17 +541,7 @@ footer > p {
         left: -4550px;
     }
 
-    #slider-buttons {
-        position: relative;
-        top: -28px;
-        text-align: center;
-    }
-
     #slider-buttons a {
-        width: 12px;
-        height: 12px;
-        background-color: #EFEEEE;
-        display: inline-block;
         margin: 0 6px;
     }
 }
