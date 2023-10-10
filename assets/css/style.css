@@ -28,7 +28,8 @@ h3 {
     background-color: rgba(23, 20, 20, 0.0);
 }
 
-/* Header styles */header {
+/* Header styles */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -283,6 +284,16 @@ main {
     background-color: #EFEEEE;
     display: inline-block;
     margin: 0 2px;
+}
+
+/* Join the community! page styles */
+#join-the-community-layout {
+    display: flex;
+}
+
+#signup {
+    background: url('../images/join-the-community-2200x1467.jpeg') no-repeat center center/cover;
+    flex-grow: 1;
 }
 
 /* Footer styles */
