@@ -294,10 +294,21 @@ main {
 #join {
     background: url('../images/join-the-community-2200x1467.jpeg') no-repeat center center/cover;
     flex-grow: 1;
+    font-size: 70%;
+}
+
+/* Due to absolutely positioned header, a div with the header's height is required to 'push' down the form blocks*/
+#style-push {
+    height: 68px;
+}
+
+#form-blocks {
+    /* Height set to 88% to effectively exclude footer from flex layout */
+    height: 88%;
     display: flex;
-    flex-direction: row wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 #login-form {
