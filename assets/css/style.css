@@ -410,31 +410,31 @@ footer > p {
     }
 
     #slide-2:target~#slide-container {
-        left: -250px;
+        left: -450px;
     }
 
     #slide-3:target~#slide-container {
-        left: -500px;
+        left: -900px;
     }
 
     #slide-4:target~#slide-container {
-        left: -750px;
+        left: -1350px;
     }
 
     #slide-5:target~#slide-container {
-        left: -1000px;
+        left: -1800px;
     }
 
     #slide-6:target~#slide-container {
-        left: -1250px;
+        left: -2250px;
     }
 
     #slide-7:target~#slide-container {
-        left: -1500px;
+        left: -2700px;
     }
 
     #slide-8:target~#slide-container {
-        left: -1750px;
+        left: -3150px;
     }
 
     #slider-buttons {
