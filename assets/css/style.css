@@ -511,4 +511,81 @@ footer > p {
     #where-to-visit {
         font-size: 110%;
     }
+
+    /* Gallery page styles */
+    #slider {
+        width: 650px;
+        height: 360px;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 115px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+    }
+
+    #slide-container {
+        width: 5850px;
+        height: 360px;
+        position: relative;
+        clear: both;
+    }
+
+    /* Adjust width and height with CSS so slide fits slide container */
+    .slide {
+        width: 650px;
+        height: 360px;
+        margin: 0;
+        padding: 0;
+        float: left;
+        position: relative;
+    }
+
+    /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
+    #slide-1:target~#slide-container {
+        left: 0px;
+    }
+
+    #slide-2:target~#slide-container {
+        left: -650px;
+    }
+
+    #slide-3:target~#slide-container {
+        left: -1300px;
+    }
+
+    #slide-4:target~#slide-container {
+        left: -1950px;
+    }
+
+    #slide-5:target~#slide-container {
+        left: -2600px;
+    }
+
+    #slide-6:target~#slide-container {
+        left: -3250px;
+    }
+
+    #slide-7:target~#slide-container {
+        left: -3900px;
+    }
+
+    #slide-8:target~#slide-container {
+        left: -4550px;
+    }
+
+    #slider-buttons {
+        position: relative;
+        top: -28px;
+        text-align: center;
+    }
+
+    #slider-buttons a {
+        width: 12px;
+        height: 12px;
+        background-color: #EFEEEE;
+        display: inline-block;
+        margin: 0 6px;
+    }
 }
