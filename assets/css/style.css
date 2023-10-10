@@ -239,12 +239,37 @@ main {
     position: relative;
 }
 
+/* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
 #slide-1:target ~ #slide-container {
     left: 0px;
 }
 
 #slide-2:target ~ #slide-container {
     left: -250px;
+}
+
+#slide-3:target ~ #slide-container {
+    left: -500px;
+}
+
+#slide-4:target ~ #slide-container {
+    left: -750px;
+}
+
+#slide-5:target ~ #slide-container {
+    left: -1000px;
+}
+
+#slide-6:target ~ #slide-container {
+    left: -1250px;
+}
+
+#slide-7:target ~ #slide-container {
+    left: -1500px;
+}
+
+#slide-8:target ~ #slide-container {
+    left: -1750px;
 }
 
 #slider-buttons {
