@@ -24,11 +24,11 @@ h3 {
     text-align: center;
 }
 
+/* Header styles */
 .transparent {
     background-color: rgba(23, 20, 20, 0.0);
 }
 
-/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -274,7 +274,7 @@ main {
 
 #slider-buttons {
     position: relative;
-    top: -24px;
+    top: -30px;
     text-align: center;
 }
 
@@ -283,7 +283,6 @@ main {
     height: 12px;
     background-color: #EFEEEE;
     display: inline-block;
-    margin: 0 2px;
 }
 
 /* Join the community! page styles */
@@ -297,7 +296,7 @@ main {
     font-size: 70%;
 }
 
-/* Due to absolutely positioned header, a div with the header's height is required to 'push' down the form blocks*/
+/* Due to absolutely positioned header, a div with the header's height is required to 'push' down the form blocks */
 #style-push {
     height: 68px;
 }
@@ -309,6 +308,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
+}
+
+#form-blocks > h3 {
+    text-decoration: none;
 }
 
 #login-form {
@@ -412,65 +416,6 @@ footer > p {
         font-size: 90%;
     }
 
-    /* Gallery page styles */
-    #slider {
-        width: 450px;
-        height: 360px;
-        top: 115px;
-    }
-
-    #slide-container {
-        width: 4150px;
-        height: 360px;
-    }
-
-    /* Adjust width and height with CSS so slide fits slide container */
-    .slide {
-        width: 450px;
-        height: 360px;
-    }
-
-    /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
-    #slide-1:target~#slide-container {
-        left: 0px;
-    }
-
-    #slide-2:target~#slide-container {
-        left: -450px;
-    }
-
-    #slide-3:target~#slide-container {
-        left: -900px;
-    }
-
-    #slide-4:target~#slide-container {
-        left: -1350px;
-    }
-
-    #slide-5:target~#slide-container {
-        left: -1800px;
-    }
-
-    #slide-6:target~#slide-container {
-        left: -2250px;
-    }
-
-    #slide-7:target~#slide-container {
-        left: -2700px;
-    }
-
-    #slide-8:target~#slide-container {
-        left: -3150px;
-    }
-
-    #slider-buttons {
-        top: -28px;
-    }
-
-    #slider-buttons a {
-        margin: 0 4px;
-    }
-
     /* Footer styles */
     footer {
         /* Increase size of Favicon text and social media icons on larger screens */
@@ -530,56 +475,5 @@ footer > p {
     /* Where to visit? section styles */
     #where-to-visit {
         font-size: 110%;
-    }
-
-    /* Gallery page styles */
-    #slider {
-        width: 650px;
-    }
-
-    #slide-container {
-        width: 5850px;
-    }
-
-    /* Adjust width and height with CSS so slide fits slide container */
-    .slide {
-        width: 650px;
-    }
-
-    /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
-    #slide-1:target~#slide-container {
-        left: 0px;
-    }
-
-    #slide-2:target~#slide-container {
-        left: -650px;
-    }
-
-    #slide-3:target~#slide-container {
-        left: -1300px;
-    }
-
-    #slide-4:target~#slide-container {
-        left: -1950px;
-    }
-
-    #slide-5:target~#slide-container {
-        left: -2600px;
-    }
-
-    #slide-6:target~#slide-container {
-        left: -3250px;
-    }
-
-    #slide-7:target~#slide-container {
-        left: -3900px;
-    }
-
-    #slide-8:target~#slide-container {
-        left: -4550px;
-    }
-
-    #slider-buttons a {
-        margin: 0 6px;
     }
 }
