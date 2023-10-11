@@ -330,10 +330,14 @@ main {
     border-radius: 3%;
 }
 
-#login-form > button, #signup-form > button {
+#form-blocks button {
     margin-top: 15px;
     border: solid;
     border-radius: 5%;
+}
+
+#form-blocks button {
+    cursor: pointer;
 }
 
 /* Footer styles */
