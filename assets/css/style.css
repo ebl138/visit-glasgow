@@ -420,6 +420,20 @@ footer > p {
         font-size: 90%;
     }
 
+    /* Join the community! page styles */
+    #form-blocks {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #form-blocks > h3 {
+        font-size: 200%;
+    }
+
+    #login-form, #signup-form {
+        font-size: 120%;
+    }
+
     /* Footer styles */
     footer {
         /* Increase size of Favicon text and social media icons on larger screens */
