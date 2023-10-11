@@ -343,6 +343,7 @@ main {
 /* Best Weegie jokes page styles */
 #jokes-layout {
     display: flex;
+    flex-direction: column;
 }
 
 #jokes-hero {
