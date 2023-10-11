@@ -315,16 +315,21 @@ main {
     text-decoration: none;
 }
 
-#login-form {
+#login-form, #signup-form {
     background-color: rgba(23, 20, 20, 0.4);
     width: fit-content;
     height: fit-content;
+    padding: 20px 20px 10px 20px;
+    border: solid;
+    border-radius: 3%;
 }
 
-#signup-form {
-    background-color: rgba(23, 20, 20, 0.4);
-    width: fit-content;
-    height: fit-content;
+#login-form > button {
+    margin-top: 10px;
+}
+
+#signup-form > button {
+    margin-top: 10px;
 }
 
 /* Footer styles */
