@@ -291,7 +291,7 @@ main {
 }
 
 #join {
-    background: url('../images/join-the-community-2200x1467.jpeg') no-repeat center center/cover;
+    background: url('../images/join-the-community-2200x1467.webp') no-repeat center center/cover;
     flex-grow: 1;
     font-size: 70%;
 }
@@ -338,6 +338,18 @@ main {
 
 #form-blocks button {
     cursor: pointer;
+}
+
+/* Best Weegie jokes page styles */
+#jokes-layout {
+    display: flex;
+}
+
+#jokes-hero {
+    background: url('../images/best-weegie-jokes-hero-2200x1467.webp') no-repeat center center/cover;
+    flex-grow: 1;
+    height: 750px;
+    box-shadow: 0 1.25px #EFEEEE;
 }
 
 /* Footer styles */
