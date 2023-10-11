@@ -316,17 +316,22 @@ main {
     font-size: 150%;
 }
 
+#form-blocks input {
+    border: solid;
+    border-radius: 5%;
+}
+
 #login-form, #signup-form {
     background-color: rgba(23, 20, 20, 0.4);
     width: fit-content;
     height: fit-content;
-    padding: 20px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     border: solid;
     border-radius: 3%;
 }
 
 #login-form > button, #signup-form > button {
-    margin-top: 10px;
+    margin-top: 15px;
     border: solid;
     border-radius: 5%;
 }
@@ -493,5 +498,23 @@ footer > p {
     /* Where to visit? section styles */
     #where-to-visit {
         font-size: 110%;
+    }
+
+    /* Join the community! page styles */
+    #form-blocks > h3 {
+        font-size: 230%;
+    }
+
+    #login-form, #signup-form {
+        font-size: 150%;
+        padding: 50px 58px 45px 50px;
+    }
+
+    #form-blocks input {
+        width: 100%;
+    }
+
+    #form-blocks button {
+        margin-top: 25px; 
     }
 }
