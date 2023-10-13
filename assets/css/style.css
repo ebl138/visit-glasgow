@@ -350,13 +350,17 @@ main {
     box-shadow: 0 1.25px #EFEEEE;
 }
 
-#jokes-form button {
-    margin-top: 5px;
-    margin-left: 104px;
-    margin-bottom: 10px;
-    border: solid;
-    border-radius: 5%;
-    cursor: pointer;
+#rate-jokes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#rate-jokes > p {
+    padding: 0 10px;
+    font-size: 85%;
+    text-align: center;
 }
 
 #jokes-form {
@@ -366,15 +370,25 @@ main {
     margin: 6px;
     padding: 0 5px;
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jokes-form > p {
+    font-weight: bold;
+}
+
+#jokes-form button {
+    margin-bottom: 10px;
+    border: solid;
+    border-radius: 5%;
+    cursor: pointer;
 }
 
 tr {
     display: flex;
-    justify-content: center;
-}
-
-th {
-    justify-self: flex-end;
+    justify-content: space-between;
 }
 
 .radio-button-cell {
@@ -486,6 +500,20 @@ footer > p {
         font-size: 120%;
     }
 
+    /* Best weegie jokes page styles */
+    #jokes-form {
+        font-size: 0.9rem;
+        max-width: 450px;
+    }
+
+    #rate-jokes > p {
+        font-size: 100%;
+    }
+
+    #jokes-form button {
+        font-size: 110%;
+    }
+
     /* Footer styles */
     footer {
         /* Increase size of Favicon text and social media icons on larger screens */
@@ -563,5 +591,20 @@ footer > p {
 
     #form-blocks button {
         margin-top: 25px; 
+    }
+
+    /* Best weegie jokes page styles */
+    #rate-jokes {
+        margin-top: 15px;
+        margin-bottom: 45px;
+    }
+
+    #jokes-form {
+        font-size: 1rem;
+        max-width: 550px;
+    }
+
+    #rate-jokes>p {
+        font-size: 115%;
     }
 }
