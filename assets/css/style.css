@@ -133,7 +133,7 @@ main {
 /* Glasgow information section */
 #glasgow-info {
     display: flex;
-    margin: 1.25px 12px 12px 15px;
+    margin: 1.25px 12px 42px 15px;
     flex-direction: column;
 }
 
@@ -156,7 +156,7 @@ main {
     border-radius: 3%;
     margin: 6px;
     padding: 0 5px;
-    max-width: 300px;
+    max-width: 330px;
 }
 
 #accent > p, #locals > p {
@@ -175,7 +175,7 @@ main {
 #where-to-visit {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
     padding: 0 5px;
     box-shadow: 0 -1.25px #EFEEEE;
     font-size: 70%;
@@ -567,7 +567,8 @@ footer > p {
 
     #accent, #locals {
         font-size: 1rem;
-        max-width: 450px;
+        max-width: 395px;
+        height: fit-content;
     }
 
     /* Where to visit? section styles */
@@ -604,7 +605,7 @@ footer > p {
         max-width: 550px;
     }
 
-    #rate-jokes>p {
+    #rate-jokes > p {
         font-size: 115%;
     }
 }
