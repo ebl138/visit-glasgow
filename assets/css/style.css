@@ -223,6 +223,8 @@ main {
     left: 0;
     right: 0;
     overflow: hidden;
+    border: solid;
+    border-radius: 3%;
 }
 
 #slide-container {
@@ -274,7 +276,7 @@ main {
 
 #slider-buttons {
     position: relative;
-    top: -30px;
+    top: -28px;
     text-align: center;
 }
 
@@ -283,6 +285,7 @@ main {
     height: 12px;
     background-color: #EFEEEE;
     display: inline-block;
+    margin: 0 2px;
 }
 
 /* Join the community! page styles */
