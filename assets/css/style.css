@@ -6,7 +6,7 @@
     color: #EFEEEE;
 }
 
-/* General styles */
+/* General (site-wide) styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -27,6 +27,11 @@ h3 {
 .block-box {
     border: solid;
     border-radius: 3%;
+}
+
+.button-box {
+    border: solid;
+    border-radius: 5%;
 }
 
 /* Header styles */
@@ -338,8 +343,6 @@ main {
 
 #form-blocks button {
     margin-top: 15px;
-    border: solid;
-    border-radius: 5%;
     cursor: pointer;
     font-size: 95%;
 }
@@ -386,8 +389,6 @@ main {
 
 #jokes-form button {
     margin-bottom: 10px;
-    border: solid;
-    border-radius: 5%;
     cursor: pointer;
 }
 
