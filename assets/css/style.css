@@ -156,7 +156,7 @@ main {
     border-radius: 3%;
     margin: 6px;
     padding: 0 5px;
-    max-width: 330px;
+    max-width: 250px;
 }
 
 #accent > p, #locals > p {
