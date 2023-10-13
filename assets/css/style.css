@@ -331,6 +331,7 @@ main {
     padding: 15px 20px 15px 20px;
     border: solid;
     border-radius: 3%;
+    font-size: 90%;
 }
 
 #form-blocks button {
@@ -338,6 +339,7 @@ main {
     border: solid;
     border-radius: 5%;
     cursor: pointer;
+    font-size: 95%;
 }
 
 /* Best Weegie jokes page styles */
