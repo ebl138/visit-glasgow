@@ -489,6 +489,69 @@ footer > p {
         font-size: 90%;
     }
 
+    /* Gallery page styles */
+    #slider {
+        width: 450px;
+        height: 360px;
+        top: 115px;
+    }
+
+    #slide-container {
+        width: 4150px;
+        height: 360px;
+    }
+
+    /* Adjust width and height with CSS so slide fits slide container */
+    .slide {
+        width: 450px;
+        height: 360px;
+    }
+
+    /* When anchor element with href 'slide-x' clicked, 'move' slide-container to right */
+    #slide-1:target~#slide-container {
+        left: 0px;
+    }
+
+    #slide-2:target~#slide-container {
+        left: -450px;
+    }
+
+    #slide-3:target~#slide-container {
+        left: -900px;
+    }
+
+    #slide-4:target~#slide-container {
+        left: -1350px;
+    }
+
+    #slide-5:target~#slide-container {
+        left: -1800px;
+    }
+
+    #slide-6:target~#slide-container {
+        left: -2250px;
+    }
+
+    #slide-7:target~#slide-container {
+        left: -2700px;
+    }
+
+    #slide-8:target~#slide-container {
+        left: -3150px;
+    }
+
+    #slider-buttons {
+        position: relative;
+        top: -30px;
+        text-align: center;
+    }
+
+    #slider-buttons a {
+        width: 15px;
+        height: 15px;
+        margin: 0 4px;
+    }
+
     /* Join the community! page styles */
     #form-blocks {
         flex-direction: row;
@@ -577,6 +640,11 @@ footer > p {
     /* Where to visit? section styles */
     #where-to-visit {
         font-size: 110%;
+    }
+
+    /* Gallery page styles */
+    #slider {
+        margin-top: 40px;
     }
 
     /* Join the community! page styles */
