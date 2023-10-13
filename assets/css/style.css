@@ -34,6 +34,14 @@ h3 {
     border-radius: 5%;
 }
 
+.section-overline {
+    box-shadow: 0 -1.25px #EFEEEE;
+}
+
+.section-underline {
+    box-shadow: 0 1.25px #EFEEEE;
+}
+
 /* Header styles */
 .transparent {
     background-color: rgba(23, 20, 20, 0.0);
@@ -87,7 +95,7 @@ nav {
     padding: 0 0 5px 20px;
 }
 
-#nav-menu>li {
+#nav-menu > li {
     margin-bottom: 7px;
 }
 
@@ -120,7 +128,6 @@ main {
     width: 100%;
     height: 750px;
     background: url('../images/glasgow-hero.webp') no-repeat center center/cover;
-    box-shadow: 0 1.25px #EFEEEE;
 }
 
 .hero-cover {
@@ -176,7 +183,6 @@ main {
     width: 100%;
     height: 750px;
     background: url('../images/glasgow-clyde-1950x1436.webp') no-repeat center center/cover;
-    box-shadow: 0 -1.25px #EFEEEE;
 }
 
 /* Where to visit? section styles */
@@ -185,7 +191,6 @@ main {
     flex-direction: column;
     margin-bottom: 60px;
     padding: 0 5px;
-    box-shadow: 0 -1.25px #EFEEEE;
     font-size: 70%;
 }
 
@@ -214,7 +219,6 @@ main {
 #glasgow-locations-map > iframe {
     width: 100%;
     height: 325px;
-    box-shadow: 0 -1.25px #EFEEEE;
     border-width: 0;
 }
 
@@ -357,7 +361,6 @@ main {
     background: url('../images/best-weegie-jokes-hero-2200x1467.webp') no-repeat center center/cover;
     flex-grow: 1;
     height: 750px;
-    box-shadow: 0 1.25px #EFEEEE;
 }
 
 #rate-jokes {
@@ -410,7 +413,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    box-shadow: 0 -1.25px #EFEEEE;
 }
 
 footer > p {
