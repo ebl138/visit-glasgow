@@ -24,6 +24,11 @@ h3 {
     text-align: center;
 }
 
+.block-box {
+    border: solid;
+    border-radius: 3%;
+}
+
 /* Header styles */
 .transparent {
     background-color: rgba(23, 20, 20, 0.0);
@@ -152,8 +157,6 @@ main {
 
 #accent, #locals {
     font-size: 0.65rem;
-    border: solid;
-    border-radius: 3%;
     margin: 6px;
     padding: 0 5px;
     max-width: 250px;
@@ -197,8 +200,6 @@ main {
 }
 
 #kelvingrove-park-image, #botanic-gardens-image, #mitchell-library-image, #hampden-park-image {
-    border: solid;
-    border-radius: 3%;
     height: 250px;
     width: fit-content;
     overflow: hidden;
@@ -223,8 +224,6 @@ main {
     left: 0;
     right: 0;
     overflow: hidden;
-    border: solid;
-    border-radius: 3%;
 }
 
 #slide-container {
@@ -329,9 +328,12 @@ main {
     width: fit-content;
     height: fit-content;
     padding: 15px 20px 15px 20px;
-    border: solid;
-    border-radius: 3%;
     font-size: 90%;
+}
+
+::placeholder {
+    color: lightblue;
+    opacity: 0.95;
 }
 
 #form-blocks button {
@@ -370,8 +372,6 @@ main {
 
 #jokes-form {
     font-size: 0.65rem;
-    border: solid;
-    border-radius: 3%;
     margin: 6px;
     padding: 0 5px;
     max-width: 300px;
