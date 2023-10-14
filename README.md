@@ -2,18 +2,24 @@
 
 Visit Glasgow is a website that aims to encourage prospective tourists to visit this city by showcasing it primarily through photos, informative facts and the best jokes Glasgow has to offer. This site provides information about Glasgow, its places of interest, its people and their humour in a fun and engaging way and its target audience is people with an interest in learning about this unique city. Visit Glasgow will be of most use to people who have never been, don't much much about it and want to learn just enough to entice them to visit.
 
-![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/media/visit-glasgow-am-i-responsive.PNG)
+![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive.PNG)
 
 ## Features
 
+- __Image based design__
+
+  - As Visit Glasgow is a site to showcase a location, there are images across all four pages featuring its most iconic and recognisable parts, instead of an abundance of text
+  - These images in particular aid in helping prospective visitors learn about Glasgow visually and give ideas of locations to visit, accompanied with supporting text where necessary
+  - Along with other aspects of the site, images help create and maintain visual interest which engages users more
+
 - __Navigation__
 
-  - Appearing on each of the four pages, the semi-transparent navigation bar displays across the top of the screen from left to right
+  - Appearing on each of the four pages, the semi-transparent navigation bar displays across the top of the screen from left to right and is consistent on every page
   - The navigation feature displays the site name, Visit Glasgow, on its left side in a clear yet styled way and, when clicked, will take the user to the Home page
   - There are four links to the four pages of the website; Home, Gallery, Join the community! and Best Weegie Jokes; these links highlight in a light blue colour when hovered over to add visual appeal
   - On mobile devices less than 768 pixels wide, the navigation bar contracts into a menu represented by a hamburger icon which, when clicked, expands down to display the four links
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](h<https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG)>
 
 - __The landing page image__
 
