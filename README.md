@@ -11,6 +11,7 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
   - As Visit Glasgow is a site to showcase a location, there are images across all four pages featuring its most iconic and recognisable parts, instead of an abundance of text.
   - These images in particular aid in helping prospective visitors learn about Glasgow visually and give ideas of locations to visit, accompanied with supporting text where necessary.
   - Along with other aspects of the site, images help create and maintain visual interest which engages users more.
+  - Includes the hero sections of pages and the Where to Visit? section on the Home page
 
 - __Navigation__
 
@@ -58,27 +59,26 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
 - __The Footer__
 
   - The footer section includes links to the social media pages for the Visit Glasgow community. The links will open to a new tab to minimise disruption for the user.
-  - The footer is valuable to the user as it allows them to stay connected with other users of the site and keep them coming back
+  - The footer is valuable to the user as it allows them to stay connected with other users of the site via social media and keep them coming back.
+  - Text also informs the user that the favicon was created using favicon.ico.
 
 ![Footer](https://raw.githubusercontent.com/ebl138/visit-glasgow/main/media/footer.PNG)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
 
-- Another feature idea
+- A 'Reviews' page which would reference the four best and four worst reviews received by Glasgow businesses/places. This would give even more information to the user about Glasgow and suggest locations to visit or activities to do.
+- A video addition to the Best Weegie jokes page of Billy Connolly's best joke. This would be valuable to the user to allow them to learn more about Glaswegian humour and, by extension, Glasgow.
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- Tested on Chrome, Edge, Firefox, Opera (four of the five most commonly used web browsers(1)).
+- Tested on each Windows, Mac and Ubuntu Linux on at least one of the above browsers.
+- Project is responsive, visually attractive and functions well on all screen sizes from 'Mobile S' (320 pixels wide) to '4K' (2560 pixels wide) using Chrome Devtools.
+- Navigation, information block, sign up form, favourite joke form and footer text all easy to read and understand on mobile to desktop screen sizes.
+- All three forms work. In the Log In and Sign Up forms, entries are required in all fields except the 'Username' field, which is clearly marked 'Optional'; in the Favourite Joke form, an entry is required (and will only be accepted) in one field and the first field has been pre-checked. The submit buttons on all three forms all work.
+- Tested performance using GTMetrix with following results:
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+![GTMetrix test result](https://raw.githubusercontent.com/ebl138/visit-glasgow/main/media/gtmetrix-performance-test.PNG)
 
 ### Validator Testing
 
@@ -104,17 +104,16 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
-
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- the hidden-heading class was taken from the Love Running project
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
+
+## Sources
+
+- 1: <https://www.oberlo.com/statistics/browser-market-share>

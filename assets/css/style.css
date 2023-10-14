@@ -24,17 +24,6 @@ h3 {
     text-align: center;
 }
 
-/* Hero styles */
-.hero-cover {
-    height: fit-content;
-    width: fit-content;
-}
-
-.hero-heading {
-    margin: 2px 10px;
-    font-weight: bold;
-}
-
 .transparent {
     /* Tried to use opacity: 0.0; but doesn't give expected result */
     background-color: rgba(0, 0, 0, 0.0);
@@ -56,6 +45,21 @@ h3 {
 
 .section-underline {
     box-shadow: 0 1.25px #EFEEEE;
+}
+
+.hidding-heading {
+    display: none;
+}
+
+/* Hero styles */
+.hero-cover {
+    height: fit-content;
+    width: fit-content;
+}
+
+.hero-heading {
+    margin: 2px 10px;
+    font-weight: bold;
 }
 
 /* Header styles */
@@ -581,7 +585,7 @@ footer > p {
     /* Best weegie jokes page styles */
     #jokes-form {
         font-size: 0.9rem;
-        max-width: 450px;
+        max-width: 400px;
     }
 
     #rate-jokes > p {
@@ -672,6 +676,10 @@ footer > p {
     }
 
     /* Best weegie jokes page styles */
+    td {
+        margin: 5px 0;
+    }
+
     #rate-jokes {
         margin-top: 15px;
         margin-bottom: 45px;
@@ -679,7 +687,7 @@ footer > p {
 
     #jokes-form {
         font-size: 1rem;
-        max-width: 550px;
+        max-width: 490px;
     }
 
     #rate-jokes > p {
