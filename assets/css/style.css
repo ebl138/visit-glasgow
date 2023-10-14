@@ -319,7 +319,7 @@ main {
 }
 
 /* Due to absolutely positioned header, a div with the header's height is required to 'push' down the form blocks */
-#style-push {
+#form-push {
     height: 68px;
 }
 

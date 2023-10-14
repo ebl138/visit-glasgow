@@ -135,3 +135,5 @@ The live link can be found here - <https://ebl138.github.io/visit-glasgow>
 ## Sources
 
 - 1 (most commonly used browsers reference): <https://www.oberlo.com/statistics/browser-market-share>
+- The 'Previous Studies' link in the first information block on the Home page links to <https://preply.com/en/blog/british-cultural-attitudes-towards-languages/>
+- The rottweiler joke on the Best Weegie jokes page belongs to Billy Connolly
