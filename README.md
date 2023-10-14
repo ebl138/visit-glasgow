@@ -89,7 +89,7 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+There are no unfixed bugs
 
 ## Deployment
 
@@ -100,7 +100,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://code-institute-org.github.io/love-running-2.0/index.html>
+The live link can be found here - <https://ebl138.github.io/visit-glasgow>
 
 ## Credits
 
@@ -108,6 +108,7 @@ The live link can be found here - <https://code-institute-org.github.io/love-run
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - the hidden-heading class was taken from the Love Running project
+- The Love Running README.md template was the basis for this README.md
 
 ### Media
 
