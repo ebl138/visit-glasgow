@@ -2,7 +2,7 @@
 
 Visit Glasgow is a website that aims to encourage prospective tourists to visit this city by showcasing it primarily through photos, informative facts and the best jokes Glasgow has to offer. This site provides information about Glasgow, its places of interest, its people and their humour in a fun and engaging way and its target audience is people with an interest in learning about this unique city. Visit Glasgow will be of most use to people who have never been, don't much much about it and want to learn just enough to entice them to visit.
 
-![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive.PNG)
+![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive-1260x720.PNG)
 
 ## Features
 
@@ -19,28 +19,21 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
   - There are four links to the four pages of the website; Home, Gallery, Join the community! and Best Weegie Jokes; these links highlight in a light blue colour when hovered over to add visual appeal
   - On mobile devices less than 768 pixels wide, the navigation bar contracts into a menu represented by a hamburger icon which, when clicked, expands down to display the four links
 
-![Nav Bar](h<https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG)>
+![Navigation bar](https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG)
 
-- __The landing page image__
+- __Information blocks__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The information blocks provide the user with informative facts about Glasgow and its distinctive accent and the locals so they can learn about aspects of the city
+  - These blocks give an introduction to the city in a fun way which engages the user
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Glasgow information blocks](https://github.com/ebl138/visit-glasgow/tree/main/media/information-blocks.PNG)
 
-- __Club Ethos Section__
+- __Map section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+  - The map at the bottom of the Home page allows the user to see exactly where the locations featured in the Where to visit? section are and shows surrounding areas to help with orientation.
+  - The map can be interacted with, opened in a new tab to display a larger version and shared on social media to help the user plan their trip.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](https://github.com/ebl138/visit-glasgow/tree/main/media/locations-map-2100x457.PNG)
 
 - __The Footer__
 
