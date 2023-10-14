@@ -105,6 +105,19 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 The live link can be found here - <https://ebl138.github.io/visit-glasgow>
 
+## Rationale
+
+### Goals
+
+ - Provide information (both visual and textual) about Glasgow to the user in an engaging and appealing way such that the user will want to explore more of the site and will be able to do so in an easy and straightforward way
+ - Provide the ueer with opportunities to interact and contribute (in future) to the site/community of Visit Glasgow
+ - Teach the user about aspects of Glasgow, in particular its accent and inhabitants
+
+### Target audience
+
+ - The target audience of this site is people who know little to nothing about Glasgow and would like to find out more, with a view to visiting
+ - The typical target user will aim to find out more information about Glasgow in a compelling and engaging way
+
 ## Credits
 
 ### Content
