@@ -2,7 +2,7 @@
 
 Visit Glasgow is a website that aims to encourage prospective tourists to visit this city by showcasing it primarily through photos, informative facts and the best jokes Glasgow has to offer. This site provides information about Glasgow, its places of interest, its people and their humour in a fun and engaging way and its target audience is people with an interest in learning about this unique city. Visit Glasgow will be of most use to people who have never been, don't much much about it and want to learn just enough to entice them to visit.
 
-![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive-1260x720.PNG?raw=true)
+![Am I Responsive mockup](https://raw.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive-1260x720.PNG)
 
 ## Features
 
@@ -19,35 +19,35 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
   - There are four links to the four pages of the website; Home, Gallery, Join the community! and Best Weegie Jokes; these links highlight in a light blue colour when hovered over to add visual appeal.
   - On mobile devices less than 768 pixels wide, the navigation bar contracts into a menu represented by a hamburger icon which, when clicked, expands down to display the four links.
 
-![Navigation bar](https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG?raw=true)
+![Navigation bar](https://rww.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG)
 
 - __Information blocks__
 
   - The information blocks provide the user with informative facts about Glasgow and its distinctive accent and the locals so they can learn about aspects of the city.
   - These blocks give an introduction to the city in a fun way which engages the user.
 
-![Glasgow information blocks](https://github.com/ebl138/visit-glasgow/tree/main/media/information-blocks.PNG?raw=true)
+![Glasgow information blocks](https://raw.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/information-blocks.PNG)
 
 - __Map section__
 
   - The map at the bottom of the Home page will allow the user to see exactly where the locations featured in the Where to visit? section are and shows surrounding areas to help with orientation.
   - The map can be interacted with, opened in a new tab to display a larger version and shared on social media to help the user plan their trip.
 
-![Meetup Times](https://github.com/ebl138/visit-glasgow/tree/main/media/locations-map-2100x457.PNG?raw=true)
+![Meetup Times](https://raw.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/locations-map-2100x457.PNG)
 
 - __Gallery__
 
   - The gallery offers the user ideas for sights to see, in addition to teaching the user what Glasgow is like visually.
   - The gallery features a slider function which allows the user to browse through 8 images in an interactive way.
 
-![Gallery](https://github.com/ebl138/visit-glasgow/tree/main/media/gallery-620x502.PNG?raw=true)
+![Gallery](https://raw.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/gallery-620x502.PNG)
 
 - __Join the community! page (Sign up or Log in)__
 
   - This page will allow the user to Become a Weegie (sign up for an account) or log in to their account if they are a returning user. Giving the user the ability to log in will increase the chance of visiting Glasgow as they can come back to the site and see saved locations and images (implemented as part of a future feature).
   - When signing up for an account, a user will be asked to submit a desired username to create interest.
 
-![Sign Up](https://github.com/ebl138/visit-glasgow/tree/main/media/join-the-community-1200x444.PNG?raw=true)
+![Sign Up](https://raw.githubusercontent.com/ebl138/visit-glasgow/tree/main/media/join-the-community-1200x444.PNG)
 
 - __Best Weegie Jokes page__
 
