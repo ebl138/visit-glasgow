@@ -86,6 +86,10 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Accessibility
+  - Running the site through Devtools' Lighthouse gives the following score and confirms that the colours and fonts chosen are easy to read and accessible
+  
+![Lighthouse result](https://raw.githubusercontent.com/ebl138/visit-glasgow/main/media/lighthouse.PNG)
 
 ### Unfixed Bugs
 
@@ -108,13 +112,27 @@ The live link can be found here - <https://ebl138.github.io/visit-glasgow>
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - the hidden-heading class was taken from the Love Running project
-- The Love Running README.md template was the basis for this README.md
+- The Love Running README.md template was used as the basis for this README.md
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- index.html Hero image: <https://www.freeimages.com/photo/glasgow-1-1491832>
+- index.html Glasgow Clyde image: <https://unsplash.com/photos/7vJX8cIgLao>
+- index.html Kelvingrove Park image: <https://unsplash.com/photos/a-group-of-people-sitting-on-top-of-a-lush-green-field-NC9neTICUtI>
+- index.html Botanic Gardens image: <https://unsplash.com/photos/XRGmBLs8mBo>
+- index.html Mitchell Library image: <https://www.pexels.com/photo/the-famous-mitchell-library-in-scotland-13657324/>
+- index.html Hampden Park image: <https://stock.adobe.com/uk/images/glasgow-scotland-may-2019-hampden-park-football-stadium/423458915>
+- gallery.html University Of Glasgow Outside image: <https://www.pexels.com/photo/brown-concrete-building-3061345/>
+- gallery.html Mitchell Library image: <https://www.pexels.com/photo/brown-castle-387232/>
+- gallery.html Arches in University of Glasgow image: <https://www.pexels.com/photo/arches-in-university-in-glasgow-17364073/>
+- gallery.html Old Stock Exchange at Nelson Mandela Place image: <https://www.pexels.com/photo/old-glasgow-stock-exchange-in-nelson-mandela-place-at-buchanan-st-glasgow-scotland-18071848/>
+- gallery.html Under Caledonian Railway Bridge image: <https://www.pexels.com/photo/under-caledonian-railway-bridge-in-glasgow-15128598/>
+- gallery.html Doulton Fountain image: <https://www.pexels.com/photo/doulton-fountain-in-glasgow-16556338/>
+- gallery.html Aerial View of Park Circus image: <https://www.pexels.com/photo/aerial-view-of-the-glasgow-cityscape-10569132/>
+- gallery.html Glasgow Central Station Gates image: <https://www.pexels.com/photo/the-glasgow-central-station-gates-in-scotland-6309100/>
+- signup.html People Make Glasgow image: <https://stock.adobe.com/uk/images/a-view-of-a-glasgow-street-in-front-of-a-tall-building/342751255>
+- jokes.html Duke of Wellington Statue image: <https://stock.adobe.com/uk/images/glasgow-icon-gallery-of-modern-art-and-duke-of-wellington-with-cone/273317689>
 
 ## Sources
 
-- 1: <https://www.oberlo.com/statistics/browser-market-share>
+- 1 (most commonly used browsers reference): <https://www.oberlo.com/statistics/browser-market-share>
