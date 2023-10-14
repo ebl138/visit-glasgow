@@ -49,12 +49,18 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
 
 ![Sign Up](https://github.com/ebl138/visit-glasgow/tree/main/media/join-the-community-1200x444.PNG?raw=true)
 
+- __Best Weegie Jokes page__
+
+  - This page will allow the user to learn about Glasgow locals' unique humour and they can learn some of the Glaswegian dialect.
+
+![Sign Up](https://raw.githubusercontent.com/ebl138/visit-glasgow/main/media/best-weegie-jokes.PNG)
+
 - __The Footer__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the social media pages for the Visit Glasgow community. The links will open to a new tab to minimise disruption for the user.
+  - The footer is valuable to the user as it allows them to stay connected with other users of the site and keep them coming back
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://raw.githubusercontent.com/ebl138/visit-glasgow/main/media/footer.PNG)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
