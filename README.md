@@ -2,38 +2,52 @@
 
 Visit Glasgow is a website that aims to encourage prospective tourists to visit this city by showcasing it primarily through photos, informative facts and the best jokes Glasgow has to offer. This site provides information about Glasgow, its places of interest, its people and their humour in a fun and engaging way and its target audience is people with an interest in learning about this unique city. Visit Glasgow will be of most use to people who have never been, don't much much about it and want to learn just enough to entice them to visit.
 
-![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive-1260x720.PNG)
+![Am I Responsive mockup](https://github.com/ebl138/visit-glasgow/tree/main/media/visit-glasgow-am-i-responsive-1260x720.PNG?raw=true)
 
 ## Features
 
 - __Image based design__
 
-  - As Visit Glasgow is a site to showcase a location, there are images across all four pages featuring its most iconic and recognisable parts, instead of an abundance of text
-  - These images in particular aid in helping prospective visitors learn about Glasgow visually and give ideas of locations to visit, accompanied with supporting text where necessary
-  - Along with other aspects of the site, images help create and maintain visual interest which engages users more
+  - As Visit Glasgow is a site to showcase a location, there are images across all four pages featuring its most iconic and recognisable parts, instead of an abundance of text.
+  - These images in particular aid in helping prospective visitors learn about Glasgow visually and give ideas of locations to visit, accompanied with supporting text where necessary.
+  - Along with other aspects of the site, images help create and maintain visual interest which engages users more.
 
 - __Navigation__
 
-  - Appearing on each of the four pages, the semi-transparent navigation bar displays across the top of the screen from left to right and is consistent on every page
-  - The navigation feature displays the site name, Visit Glasgow, on its left side in a clear yet styled way and, when clicked, will take the user to the Home page
-  - There are four links to the four pages of the website; Home, Gallery, Join the community! and Best Weegie Jokes; these links highlight in a light blue colour when hovered over to add visual appeal
-  - On mobile devices less than 768 pixels wide, the navigation bar contracts into a menu represented by a hamburger icon which, when clicked, expands down to display the four links
+  - Appearing on each of the four pages, the semi-transparent navigation bar displays across the top of the screen from left to right and is consistent on every page.
+  - The navigation feature displays the site name, Visit Glasgow, on its left side in a clear yet styled way and, when clicked, will take the user to the Home page.
+  - There are four links to the four pages of the website; Home, Gallery, Join the community! and Best Weegie Jokes; these links highlight in a light blue colour when hovered over to add visual appeal.
+  - On mobile devices less than 768 pixels wide, the navigation bar contracts into a menu represented by a hamburger icon which, when clicked, expands down to display the four links.
 
-![Navigation bar](https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG)
+![Navigation bar](https://github.com/ebl138/visit-glasgow/tree/main/media/navigation-bar.PNG?raw=true)
 
 - __Information blocks__
 
-  - The information blocks provide the user with informative facts about Glasgow and its distinctive accent and the locals so they can learn about aspects of the city
-  - These blocks give an introduction to the city in a fun way which engages the user
+  - The information blocks provide the user with informative facts about Glasgow and its distinctive accent and the locals so they can learn about aspects of the city.
+  - These blocks give an introduction to the city in a fun way which engages the user.
 
-![Glasgow information blocks](https://github.com/ebl138/visit-glasgow/tree/main/media/information-blocks.PNG)
+![Glasgow information blocks](https://github.com/ebl138/visit-glasgow/tree/main/media/information-blocks.PNG?raw=true)
 
 - __Map section__
 
-  - The map at the bottom of the Home page allows the user to see exactly where the locations featured in the Where to visit? section are and shows surrounding areas to help with orientation.
+  - The map at the bottom of the Home page will allow the user to see exactly where the locations featured in the Where to visit? section are and shows surrounding areas to help with orientation.
   - The map can be interacted with, opened in a new tab to display a larger version and shared on social media to help the user plan their trip.
 
-![Meetup Times](https://github.com/ebl138/visit-glasgow/tree/main/media/locations-map-2100x457.PNG)
+![Meetup Times](https://github.com/ebl138/visit-glasgow/tree/main/media/locations-map-2100x457.PNG?raw=true)
+
+- __Gallery__
+
+  - The gallery offers the user ideas for sights to see, in addition to teaching the user what Glasgow is like visually.
+  - The gallery features a slider function which allows the user to browse through 8 images in an interactive way.
+
+![Gallery](https://github.com/ebl138/visit-glasgow/tree/main/media/gallery-620x502.PNG?raw=true)
+
+- __Join the community! page (Sign up or Log in)__
+
+  - This page will allow the user to Become a Weegie (sign up for an account) or log in to their account if they are a returning user. Giving the user the ability to log in will increase the chance of visiting Glasgow as they can come back to the site and see saved locations and images (implemented as part of a future feature).
+  - When signing up for an account, a user will be asked to submit a desired username to create interest.
+
+![Sign Up](https://github.com/ebl138/visit-glasgow/tree/main/media/join-the-community-1200x444.PNG?raw=true)
 
 - __The Footer__
 
@@ -41,19 +55,6 @@ Visit Glasgow is a website that aims to encourage prospective tourists to visit 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
